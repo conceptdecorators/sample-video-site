@@ -10,6 +10,7 @@
   
   <!-- Link CSS -->
   <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css\responsive.css">
   <link rel="stylesheet" href="css\bootstrap.min.css">
   <link rel="stylesheet" href="css\variable.css">
   <link rel="stylesheet" href="css\slick.css">
@@ -20,7 +21,7 @@
 
 <body>
   
-  <section class="wrapper">
+  
     <header>
       <div class="logo">
         <a href="index.html">
@@ -28,11 +29,16 @@
         </a>
       </div>
       <div class="menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="our-story.html">How it works</a></li>
-          <li><a href="#">What we do</a></li>
-          <li><a href="#">Contact</a></li>
+         <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-links">Home</a></li>
+          <li><a href="our-story.html" class="nav-links">How it works</a></li>
+          <li><a href="#" class="nav-links">What we do</a></li>
+          <li><a href="#" class="nav-links">Contact</a></li>
         </ul>
       </div>
       <div class="toggle">
@@ -230,7 +236,7 @@
      <script src="js/slick-animation.min.js"></script>
      <!-- Custom JS-->
      <script src="js/custom.js"></script>
-
+     <script src="app.js"></script>
 
     
   </script>

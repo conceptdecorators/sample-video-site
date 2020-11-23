@@ -37,7 +37,7 @@ header {
   position: relative;
   display: inline-block;
   float: left;
-  color: black;
+  color: var(--iq-white);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
@@ -69,6 +69,13 @@ header {
 .content .btn-primary:hover:after,
 .menu ul li a:hover:after {
   top: -100%;
+}
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background: var(--iq-white);
 }
 .toggle {
   float: right;
@@ -144,6 +151,7 @@ header {
 .toggle-content-inner {
   display: flex;
   flex-wrap: wrap;
+  padding: 80px;
 }
 .toggle-content-inner img {
   width: 33.33333%;
