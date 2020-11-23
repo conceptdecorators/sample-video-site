@@ -472,6 +472,12 @@ video {
   font-family: "Nunito", sans-serif;
 }
 
+#hyvor-talk-view {
+  width: 700px; /* your width - 650px to 900px works very well */
+  max-width: 100%;
+  margin: auto; /* center the content */
+}
+
 /* show-details video */
 @media (min-width: 990px) {
   .video-meta__container {

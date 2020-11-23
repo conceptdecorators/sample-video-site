@@ -19,7 +19,7 @@
 }
 @media (min-width: 992px) {
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 }
 @media (max-width: 1199px) {
   /* Hidden x */
@@ -133,7 +133,12 @@
     grid-column-end: 7;
   }
 }
-
+@media (max-height: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+  }
+}
 @media (max-width: 991px) {
 }
 @media (max-width: 768px) {

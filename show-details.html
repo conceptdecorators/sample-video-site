@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Website with fullscreen background video  Autoplay video  PlayPause Control  Toggle SlideUpDown</title>
+  <title>Soul City Tv</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
   <!-- Swiper from CDN -->
@@ -20,12 +20,11 @@
 </head>
 
 <body>
-  
-  
+  <section class="wrapper">
     <header>
       <div class="logo">
         <a href="index.html">
-          <img src="assets/images/soulcity-logo-transparent.png" alt="">
+          <img src="assets/images/soulcity-logo-transparent.png" alt="soulcity-logo">
         </a>
       </div>
       <div class="menu">
@@ -37,7 +36,7 @@
         <ul class="nav-menu">
           <li><a href="index.html" class="nav-links">Home</a></li>
           <li><a href="our-story.html" class="nav-links">How it works</a></li>
-          <li><a href="#" class="nav-links">What we do</a></li>
+          <li><a href="#" class="nav-links">Shows</a></li>
           <li><a href="#" class="nav-links">Contact</a></li>
         </ul>
       </div>
@@ -46,7 +45,18 @@
       </div>
     </header>
     
-  
+    <div class="toggle-content">
+      <div class="toggle-content-inner">
+        <img src="assets/images/The-Green-Show-TV-Graphic.jpg" alt="">
+        <img src="assets\images\Red-Chair-TV-Graphic.jpg" alt="">
+        <img src="assets\images\The-Legend-Of-Kung-Funk-TV-Graphic.jpg" alt="">
+        <img src="assets\images\The-Legend-Of-Kung-Funk-TV-Graphic.jpg" alt="">
+        <img src="assets/images/Urbanology-TV-Graphic.jpg" alt="">
+        <img src="assets\images\The-Seaerch-For-Green-Gold-TV-Graphic.jpg" alt="">
+      </div>
+    </div>
+</section>
+
   <!-- Banner Start -->
   <div class="video-container iq-main-slider">
     <video class="video d-block" controls loop>
@@ -252,8 +262,6 @@
   </div>
 </a> -->
 
-
-</body>
   <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
   <!-- Swiper JS CDN-->
   <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -293,6 +301,16 @@
      <script src="js/custom.js"></script>
      <script src="app.js"></script>
 
+     <script type="text/javascript">
+      $(document).ready(function(){
+        
+    
+        // toggle image
+        $(".toggle").on('click', function(){
+          $(".toggle-content").slideToggle();
+        });
+    
+      });
     
   </script>
 </body>
