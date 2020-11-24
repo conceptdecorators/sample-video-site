@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -166,7 +167,7 @@ header {
 
 /* main content */
 .main-content {
-  padding-top: 340px;
+  padding-top: 140px;
 }
 section {
   display: block;
@@ -429,7 +430,7 @@ video {
   margin-bottom: 20px;
 }
 
-/* Our story */
+/* Our story  can delete*/
 .page-container {
   /* margin-top: 100px; */
   -webkit-box-align: center;
@@ -471,14 +472,106 @@ video {
   font-size: 7vw;
   font-family: "Nunito", sans-serif;
 }
-
+/* Our story  can delete*/
+/* Comments test */
 #hyvor-talk-view {
   width: 700px; /* your width - 650px to 900px works very well */
   max-width: 100%;
   margin: auto; /* center the content */
 }
+/* Shows test */
+.story-page {
+  overflow: hidden;
+  width: 100%;
+}
+.section.hero {
+  min-height: 70vh;
+  padding-top: 10em;
+  background-color: var(--iq-black);
+  color: #fff;
+}
+.section.hero.about {
+  z-index: 3;
+  overflow: visible;
+  padding-bottom: 0;
+}
+.mycontain {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 1150px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px;
+}
+.mycontain.center-text.herocontain {
+  max-width: 1650px;
+}
 
-/* show-details video */
+.white,
+.white-heading {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 9.84375vw;
+}
+.p-hero {
+  max-width: 650px;
+  margin: 2em auto;
+}
+.yellowtext {
+  color: var(--iq-primary);
+}
+
+/* footer */
+.footer {
+  position: relative;
+  overflow: hidden;
+  background: var(--black);
+  text-align: center;
+}
+.footer--content {
+  padding: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 0.5rem;
+  -moz-column-gap: 0.5rem;
+  column-gap: 0.5rem;
+}
+.grid .is-col-sm-4 {
+  grid-column: span 4;
+}
+.footer--content p {
+  font-size: 1rem;
+}
+.footer--content a.has-icon-left {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.has-icon-left {
+}
+.has-icon-center {
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+}
+
+.grid .is-col-sm-4 {
+  grid-column: span 4;
+}
+.is-col-6 {
+  grid-column: span 6;
+}
+.is-text-ar-sm {
+  text-align: right;
+}
+/* show-d
+.is-text-ar-sm {
+    text-align: right;
+}etails video */
 @media (min-width: 990px) {
   .video-meta__container {
     max-width: 1050px;
