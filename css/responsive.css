@@ -122,9 +122,9 @@
 }
 
 @media (max-width: 1024px) {
-  .menu ul li a {
+  /* .menu ul li a {
     display: none;
-  }
+  } */
   .main-content {
     padding-top: 600px;
   }
@@ -157,6 +157,12 @@
 @media (max-width: 767px) {
 }
 @media (min-width: 576px) {
+  .content h1 {
+    font-size: 85px;
+  }
 }
 @media (max-width: 479px) {
+  .content h1 {
+    font-size: 85px;
+  }
 }
